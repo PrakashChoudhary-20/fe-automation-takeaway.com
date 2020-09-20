@@ -1,0 +1,30 @@
+{
+  "name": "fe-automation",
+  "version": "1.0.0",
+  "description": "Front-end automation framework for takeaway.com website",
+  "main": "index.js",
+  "scripts": {
+    "process-report": "allure(['generate', 'allure-results', '--clean'])",
+    "test-chrome": "npx wdio wdio.conf.js --BROWSER=chrome && npm run process-report",
+    "test-ff": "npx wdio wdio.conf.js --BROWSER=firefox && npm run process-report"
+  },
+  "author": "Prakash Choudhary",
+  "license": "",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.4.7",
+    "@wdio/cli": "^6.5.0",
+    "@wdio/cucumber-framework": "^6.5.0",
+    "@wdio/local-runner": "^6.5.0",
+    "@wdio/selenium-standalone-service": "^6.4.7",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "allure-commandline": "^2.13.0",
+    "yargs": "^16.0.3"
+  }
+}
