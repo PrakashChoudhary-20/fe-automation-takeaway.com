@@ -14,7 +14,6 @@ const home = HomePage;
 Given(/^I open delivery detail page with empty cart$/, () => {
     browser.url('https://www.thuisbezorgd.nl/en/checkout-order-steakhousedse#')
     home.homepageSetup()
-    browser.pause(5000)
 })
 
 When(/^I am on delivery details page$/, () => {
@@ -23,7 +22,6 @@ When(/^I am on delivery details page$/, () => {
 
 When(/^I fill in the customer details with asap delivery option$/, () => {
     deliveryDetails.fillCustomerDetails(data)
-    browser.pause(5000)
 })
 
 When(/^I select closest price amount from price dropdown$/, () => {

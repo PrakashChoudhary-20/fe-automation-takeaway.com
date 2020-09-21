@@ -31,7 +31,7 @@ class DeliveryDetailsPage {
         this.inputName.setValue(customer.name)
         this.inputPhone.setValue(customer.phone)
         this.inputEmail.setValue(customer.email)
-        browser.pause(5000)
+        browser.pause(1000)
         this.deliveryOption.getValue() === 'asap' ? '' : this.deliveryOption.selectByValue('asap')
     }
 }

@@ -23,6 +23,7 @@ When(/^I select login option from hamburger menu$/, () => {
 })
 
 When(/^I select login button with empty form$/, () => {
+    browser.pause(2000)
     home.loginBtn.click()
 })
 

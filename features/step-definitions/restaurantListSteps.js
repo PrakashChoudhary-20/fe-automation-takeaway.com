@@ -14,5 +14,4 @@ When(/^I am on the restaurant list page$/, () => {
 
 When(/^I select a restaurant from the list$/, () => {
     restaurantList.selectRestaurant()
-    browser.pause(2000)
 })

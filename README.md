@@ -15,8 +15,9 @@
 1. Clone the repository - https://github.com/PrakashChoudhary-20/fe-automation-takeaway.com.git
 2. Navigate to the project base directory
 3. Run command - npm install
-4. Run command - npm run test-chrome --> to run all the tests on chrome browser
-5. Run command - npm run test-ff --> to run all the tests on Firefox browser
+4. To run your tests on Chrome browser, run this command - npm run chrome-tests
+5. To run your tests on Firefox browser, run this command - npm run ff-tests
+6. To run your tests on headless chrome, run this command - npm run headless
 
 ## Accessing Reports:
 Once the code is executed successfully, reports will be generated under base directory

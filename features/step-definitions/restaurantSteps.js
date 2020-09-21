@@ -25,5 +25,4 @@ When(/^I place the order$/, () => {
         restaurant.selectDishes()
     }
     restaurant.placeOrder()
-    browser.pause(2000)
 })

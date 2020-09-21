@@ -4,9 +4,9 @@
   "description": "Front-end automation framework for takeaway.com website",
   "main": "index.js",
   "scripts": {
-    "process-report": "allure(['generate', 'allure-results', '--clean'])",
-    "test-chrome": "npx wdio wdio.conf.js --BROWSER=chrome && npm run process-report",
-    "test-ff": "npx wdio wdio.conf.js --BROWSER=firefox && npm run process-report"
+    "chrome-tests": "npx wdio wdio.conf.js --BROWSER=chrome",
+    "ff-tests": "npx wdio wdio.conf.js --BROWSER=firefox",
+    "headless": "npx wdio wdio.headless.conf.js"
   },
   "author": "Prakash Choudhary",
   "license": "",

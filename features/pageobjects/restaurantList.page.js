@@ -12,6 +12,7 @@ class RestaurantListPage {
     restaurantByName (name) { return $(`*=${name}`) }
 
     validateRestaurantAvailableForAddress () {
+        this.availableRestaurantCount.waitForDisplayed({ timeout: 2000 })
         return this.availableRestaurantCount.getText()
     }
 
