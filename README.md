@@ -8,8 +8,8 @@
 # Steps to run the project:
 
 ## Prerequisites:
-  Node version - 10.22.0
-  Npm version - 6.14.6
+  Node version - 10.22.0 / 
+  Npm version - 6.14.6 / 
   Download chromedriver/gecko driver and put them in your classpath (These are needed to interact with browser from your scripts) 
 
 ## Steps:
